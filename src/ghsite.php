@@ -1,7 +1,7 @@
 #!/usr/local/php5/bin/php
 <?php
 
-require 'vendor/parsedown/Parsedown.php';
+require 'lib/parsedown/Parsedown.php';
 
 // TODO: If there wasn't a first argument show the syntax
 if (empty($argv[1])) {

@@ -22,8 +22,8 @@
         .menu img { width: 40px; height: 40px; margin: 4px 4px 4px 4px; float: left;}
         .appname { margin-left: 8px; font-weight: bold; font-size: 18px; }
         .readme { margin: 20px; }
-        .created { font-size: 12px; text-align: center; color: gray; margin-top: 20px; }
-        .created a { color: gray; }
+        .created { font-size: 12px; text-align: center; color: #E5E7E9; margin-top: 20px; }
+        .created a { color: #E5E7E9; }
  
     </style>
  
@@ -43,7 +43,7 @@
 
     <div class="readme">
         <h1>ghsite</h1>
-<p>Automatically create a simple website for a GitHub project using the README.md file as the home page. Also, optionally, creates a cname file to host the site on a custom domain.</p>
+<p>Automatically create a simple website for a GitHub project using the README.md file as the home page. Optionally, creates a CNAME file to host the site on a custom domain.</p>
 <h2>Installation</h2>
 <p>Link ghsite.php into your bin folder.</p>
 <h2>Usage</h2>
@@ -58,7 +58,7 @@
 <li>Change the source to <em>master branch /docs folder</em></li>
 </ul>
 <h2>Setting up DNS</h2>
-<p>For DNS, I pointed *.joeldare.com to github so that any new project I create will get a site.joeldare.com domain automatically.</p>
+<p>For DNS, I pointed *.joeldare.com to github so that I don't have to create a DNS entry for each site. site.joeldare.com domains will work automatically as soon as they are setup in GitHub.</p>
 <ul>
 <li>Setup a CNAME record pointing to your-username.github.io</li>
 </ul>

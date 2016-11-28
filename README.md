@@ -1,6 +1,6 @@
 # ghsite
 
-Automatically create a simple website for a GitHub project using the README.md file as the home page. Also, optionally, creates a cname file to host the site on a custom domain.
+Automatically create a simple website for a GitHub project using the README.md file as the home page. Optionally, creates a CNAME file to host the site on a custom domain.
 
 ## Installation
 
@@ -25,10 +25,10 @@ ghsite will create a `./docs` directory and store your index there. On GitHub yo
 
 ## Setting up DNS
 
-For DNS, I pointed *.joeldare.com to github so that I don't have to create a DNS entry for each site. site.joeldare.com domains will work automatically as soon as they are setup in GitHub.
-
 - Setup a CNAME record pointing to your-username.github.io
 
 ## TODO
 
 - Load CSS from ghsite.joeldare.com
+- Store a list of sites somewhere
+- github like header
