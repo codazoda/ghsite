@@ -4,7 +4,8 @@ Automatically create a simple website for a GitHub project using the README.md f
 
 ## Installation
 
-Link ghsite.php into your bin folder.
+- Clone ghsite from [GitHub](http://github.com/codazoda/ghsite)
+- Link ghsite.php into your bin folder.
 
 ## Usage
 
@@ -26,6 +27,10 @@ ghsite will create a `./docs` directory and store your index there. On GitHub yo
 ## Setting up DNS
 
 - Setup a CNAME record pointing to your-username.github.io
+
+## License
+
+This project is distributed under the MIT open source license.
 
 ## TODO
 

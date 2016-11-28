@@ -1,12 +1,12 @@
 #!/usr/local/php5/bin/php
 <?php
 
-require 'vendor/parsedown/Parsedown.php';
+require __DIR__ . '/../vendor/parsedown/Parsedown.php';
 
 // TODO: If there wasn't a first argument show the syntax
 if (empty($argv[1])) {
 
-    die('ghpages "{app name}" {domain}');
+    die('ghpages "{app name}" {domain}' . "\n");
 
 } else {
 
