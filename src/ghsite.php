@@ -25,8 +25,11 @@ if (empty($argv[1])) {
     $html = str_replace('{readme}', $Parsedown->text($readmeText), $template);
     $html = str_replace('{app}', $argv[1], $html);
 
-    // TODO: If the docs folder doesn't exist
-    // TODO: Create it
+    // If the docs folder doesn't exist
+    if (!file_exists('./docs/')) {
+        // Create it
+        mkdir('./docs/');
+    }
 
     // Write the html to the index file
     file_put_contents('./docs/index.html', $html);
