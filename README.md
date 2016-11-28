@@ -25,7 +25,7 @@ ghsite will create a `./docs` directory and store your index there. On GitHub yo
 
 ## Setting up DNS
 
-For DNS, I pointed *.joeldare.com to github so that any new project I create will get a site.joeldare.com domain automatically.
+For DNS, I pointed *.joeldare.com to github so that I don't have to create a DNS entry for each site. site.joeldare.com domains will work automatically as soon as they are setup in GitHub.
 
 - Setup a CNAME record pointing to your-username.github.io
 
