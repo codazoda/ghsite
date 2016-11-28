@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ 
+<head>
+ 
+    <title>{appName}</title>
+ 
+    <!-- Javascript -->
+    <script src="main.js"></script>
+ 
+    <!-- Internal CSS -->
+    <style type="text/css">
+ 
+        * { box-sizing: border-box; }
+        body { background-color: white; margin: 0; padding: 0; font-family: sans-serif; font-size: 16px; line-height: 1.5em; }
+        h1 { padding-bottom: 0.75em; border-bottom: 1px solid #eee; }
+        h2 { padding-bottom: 0.75em; border-bottom: 1px solid #eee; }
+        p { margin-bottom: 10px; }
+        pre { margin: 25px 0 25px 0; }
+        pre code { padding: 10px; }
+        code { background-color: #f7f7f7; }
+        .menu { background-color: #E5E7E9; height: 48px; line-height: 48px; padding: 0 4px 0 4px; }
+        .menu img { width: 40px; height: 40px; margin: 4px 4px 4px 4px; float: left;}
+        .appname { margin-left: 8px; font-weight: bold; font-size: 18px; }
+        .readme { margin: 20px; }
+ 
+    </style>
+ 
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+ 
+</head>
+ 
+<body>
+ 
+    <!--
+    <div class="menu">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAQMAAADYVuV7AAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAABxJREFUeAFjIBOMAv7/UPCBlhzywWgYjIbBKAAANijXKaI5RRgAAAAASUVORK5CYII=">
+        <span class="appname">{app}</span>
+    </div>
+    -->
+
+    <div class="readme">
+        {readme}
+    </div>
+
+    <a target="about">
+    <div class="about">
+        <p></p>
+    </div>
+
+    <p class="created">created with <a href="http://ghsite.joeldare.com">ghsite</a></p>
+ 
+</body>
+ 
+</html>
