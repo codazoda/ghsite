@@ -4,7 +4,7 @@ Automatically create a simple website for a GitHub project using the README.md f
 
 ## Installation
 
-- Clone ghsite from [GitHub](http://github.com/codazoda/ghsite)
+- Clone [ghsite repo](http://github.com/codazoda/ghsite) from GitHub
 - Link ghsite.php into your bin folder.
 
 ## Usage
