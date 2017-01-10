@@ -1,4 +1,4 @@
-#!/usr/local/php5/bin/php
+#!/usr/bin/php
 <?php
 
 require __DIR__ . '/../vendor/parsedown/Parsedown.php';
